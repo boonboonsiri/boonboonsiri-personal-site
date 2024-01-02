@@ -1,0 +1,24 @@
+.Sticker {
+
+    p {
+        position: absolute;
+        z-index: 3;
+    }
+
+    .outline {
+        p{
+            filter:  brightness(0) invert(1);
+            scale: 1.1;
+            z-index: 2;
+        }
+    }
+
+    .shadow {
+        p{
+            opacity: 0.15;
+            scale: 1.13;
+            z-index: 1;
+            filter: brightness(0%);
+        }
+    }
+}
