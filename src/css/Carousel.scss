@@ -7,7 +7,7 @@
         padding: 0;
         box-sizing: border-box;
     }
-    
+
     body {
         display: flex;
         justify-content: center;
@@ -16,7 +16,7 @@
         height: 100vh;
         background: #161616;
     }
-    
+
     &.box-container {
         display: flex;
         flex-direction: row;
@@ -28,7 +28,7 @@
         max-height: 900px;
         // padding: 10px;
         margin: 0 auto;
-    
+
         p {
             @for $i from 1 through 5 {
                 &:nth-child(#{$i}) {
@@ -48,24 +48,24 @@
             transition: width 0.5s ease-in-out;
             position: relative;
             overflow: hidden;
-    
+
 
             &.closed {
                 width: 5%;
-    
+
                 img {
                     filter: brightness(70%);
 
                     opacity: 1;
                 }
             }
-    
+
             &.expanded {
                 width: 85%;
             }
         }
     }
-    
+
     img {
         object-fit: cover;
         position: absolute;
