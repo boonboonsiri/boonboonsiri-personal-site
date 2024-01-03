@@ -15,18 +15,23 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  // url: 'https://your-docusaurus-site.example.com',
+  url: 'https://boonboonsiri.github.io',
   staticDirectories: ['static'],
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: `/boonboonsiri.github.io/`,
+
   plugins: ['docusaurus-plugin-sass'],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
-  // projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'boonboonsiri', // Usually your GitHub org/user name.
+  projectName: 'boonboonsiri.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: false,
+
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
