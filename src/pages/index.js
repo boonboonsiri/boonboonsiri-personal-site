@@ -33,13 +33,12 @@ function AboutSection() {
           </div>
 
           <div className="body">
-            Hi! I'm Boon, a software engineering student at the University of Waterloo graduating in 2024. I love coding, maps, reading, and may try to relearn how to play some instruments eventually. Check out my photography learning curve and tech blog (to do sometime).
+            Hi! I'm Boon, a software engineering student at the University of Waterloo graduating in 2024. I love coding, maps, reading, and may try to relearn how to play some instruments eventually. Check out my <a href="https://boonboonsiri.github.io/photography/2023">photography</a>  learning curve and tech blog (to do sometime).
           </div>
 
           <div className="links">
 
-            resume | <a href="https://github.com/boonboonsiri" target="_blank">github</a> | <a href="https://www.linkedin.com/in/boon-boonsiri-1613a719b/
-" target="_blank">linkedin</a>
+            resume | <a href="https://github.com/boonboonsiri" target="_blank">github</a> | <a href="https://www.linkedin.com/in/boon-boonsiri-1613a719b/" target="_blank">linkedin</a>
           </div>
 
         </div>
