@@ -37,8 +37,7 @@ function AboutSection() {
           </div>
 
           <div className="links">
-
-            resume | <a href="https://github.com/boonboonsiri" target="_blank">github</a> | <a href="https://www.linkedin.com/in/boon-boonsiri-1613a719b/" target="_blank">linkedin</a>
+            <a href="https://drive.google.com/file/d/1xwchKfR-87faIAZ924Tkhv0ZaT9zyS8h/view?usp=sharing" target="_blank">resume</a> | <a href="https://github.com/boonboonsiri">github</a> | <a href="https://www.linkedin.com/in/boon-boonsiri-1613a719b/" target="_blank">linkedin</a>
           </div>
 
         </div>
