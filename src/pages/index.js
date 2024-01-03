@@ -25,7 +25,7 @@ function AboutSection() {
   return (
     <div className="about-wrapper">
       <div className="about-section">
-        <img className="profile" src='img/newyorkcroppedlarge.png' alt="Your Image Alt Text" />
+        <img className="profile" src='img/sophiecrop.jpeg' alt="Your Image Alt Text" />
 
         <div className="text-wrapper">
           <div className="title">
