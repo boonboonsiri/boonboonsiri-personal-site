@@ -25,7 +25,7 @@ function AboutSection() {
   return (
     <div className="about-wrapper">
       <div className="about-section">
-        <img className="profile" src='img/precroppedsmall.png' alt="Your Image Alt Text" />
+        <img className="profile" src='img/newyorkcroppedlarge.png' alt="Your Image Alt Text" />
 
         <div className="text-wrapper">
           <div className="title">
@@ -38,7 +38,8 @@ function AboutSection() {
 
           <div className="links">
 
-            resume | <a href="https://github.com/boonboonsiri" target="_blank">github</a> | linkedin
+            resume | <a href="https://github.com/boonboonsiri" target="_blank">github</a> | <a href="https://www.linkedin.com/in/boon-boonsiri-1613a719b/
+" target="_blank">linkedin</a>
           </div>
 
         </div>
@@ -55,7 +56,7 @@ export default function Home() {
     <Layout
       title={'Boon Boonsiri'}
       description="My personal site">
-      <HomepageHeader />
+      {/* <HomepageHeader /> */}
       <AboutSection />
     </Layout>
   );
