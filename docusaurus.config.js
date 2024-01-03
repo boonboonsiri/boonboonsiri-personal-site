@@ -81,6 +81,7 @@ const config = {
             position: 'left',
             label: 'Photography',
           },
+          {to: 'blog', label: 'Blog', position: 'left'}, // or position: 'right'
           {
             href: 'https://github.com/boonboonsiri/boonboonsiri-personal-site',
             label: 'GitHub',

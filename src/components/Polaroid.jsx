@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
-import BrowserOnly from '@docusaurus/BrowserOnly';
+import React from 'react';
 
-const Polaroid = ({ transform, text, margin, children }) => {
+const Polaroid = ({ transform, text, children }) => {
   return (
     <div className="Polaroid" style={{transform: transform}}>
       {children}
