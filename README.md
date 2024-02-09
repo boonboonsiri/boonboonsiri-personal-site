@@ -1,8 +1,8 @@
 # Welcome to my site!
 
-[boonboonsiri.github.io](boonboonsiri.github.io)
+[boonboonsiri.github.io](https://boonboonsiri.github.io)
 
-[Vercel Deployment](boonboonsiri-personal-site.vercel.app)
+[Vercel Deployment](https://boonboonsiri-personal-site.vercel.app)
 
 ## Running the site
 
