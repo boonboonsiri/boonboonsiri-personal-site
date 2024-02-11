@@ -108,7 +108,7 @@ For example a common feature of scrapbooks are polaroid photos place haphazardly
 
 <Polaroid
   text={"Plane flight to London"}
-  transform={"rotate(-2deg) translate(700px, 200px)"}
+  transform={"rotate(-2deg) translate(450px, 300px)"}
 >
 ![](image-1.png)
 
@@ -194,7 +194,7 @@ However this is super non trivial. I thought there would be a css effect which j
 
 Similarly you can pass in the transform to place it as desired.
 
-<Sticker transform={"scale(0.35) rotate(8deg) translate(1300px, -1000px)"}>
+<Sticker style={{ position: 'relative', zIndex: '10' }} transform={"scale(0.35) rotate(8deg) translate(1000px, -300px)"}>
   ![](image-2.png)
   <div className="outline">
     ![](image-2.png)

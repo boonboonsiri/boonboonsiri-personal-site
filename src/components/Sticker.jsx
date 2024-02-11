@@ -12,7 +12,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
   </div>
 </Sticker> */}
 
-const Sticker = ({ transform, scale, children }) => {
+const Sticker = ({ transform, children }) => {
 
 
   return (

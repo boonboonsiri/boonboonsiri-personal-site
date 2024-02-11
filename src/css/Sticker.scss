@@ -1,4 +1,7 @@
 .Sticker {
+    z-index: 10;
+    position: relative;
+
     p {
         position: absolute;
         z-index: 3;
