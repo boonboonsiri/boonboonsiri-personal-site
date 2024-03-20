@@ -9,12 +9,16 @@
 @import 'Sticker';
 @import 'Carousel';
 @import 'index';
-// @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-// html * {
-//   font-family: "Work Sans", sans-serif;
-// }
 
 
+.navbar {
+  box-shadow: none;
+}
+
+::selection {
+  color: black;
+  background: #007bffbe;
+}
 /* You can override the default Infima variables here. */
 :root {
 --ifm-color-primary: #007bffbe;
