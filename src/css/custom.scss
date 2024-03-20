@@ -11,6 +11,41 @@
 @import 'index';
 
 
+@import url("https://use.typekit.net/eyh3ukd.css");
+
+.blog-wrapper {
+  h1 {
+    font-family: "source-serif-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  h2 {
+    font-family: "source-serif-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+.docs-wrapper {
+
+  h2 {
+    font-family: "source-serif-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .theme-doc-sidebar-container {
+    border-right:none;
+
+    a {
+      &:hover {
+        color: #007bffbe;
+      }
+      background-color: transparent;
+    }
+  }
+
+}
+
 .navbar {
   box-shadow: none;
 }
