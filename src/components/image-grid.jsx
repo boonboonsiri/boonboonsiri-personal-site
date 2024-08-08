@@ -5,6 +5,8 @@ import "yet-another-react-lightbox/styles.css";
 
 import { Gallery } from 'react-grid-gallery';
 
+import { RowsPhotoAlbum } from "react-photo-album";
+import "react-photo-album/rows.css";
 
 const ImageGrid = ({ transform, text, children }) => {
   var images = children.props.children.length ? children.props.children : [children.props.children];
@@ -22,18 +24,24 @@ const ImageGrid = ({ transform, text, children }) => {
 
   const [index, setIndex] = useState(-1);
 
-  const handleClick = (index, item) => setIndex(index);
-  console.log("HERE", index)
+  // const handleClick = (index, item) => setIndex(index);
 
   return (
 
     <div className='ImageGrid'>
-      <Gallery
+      {/* <Gallery
         images={images}
         onClick={handleClick}
         enableImageSelection={false}
         margin={6}
         rowHeight={400}
+      /> */}
+
+    <RowsPhotoAlbum
+        photos={slides}
+        targetRowHeight={400}
+        onClick={({ index: current }) => setIndex(current)}
+        spacing={20}
       />
       <Lightbox
         slides={slides}
