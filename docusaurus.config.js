@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  // url: 'https://your-docusaurus-site.example.com',
   url: 'https://boonboonsiri.github.io',
   staticDirectories: ['static'],
 
@@ -63,7 +62,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

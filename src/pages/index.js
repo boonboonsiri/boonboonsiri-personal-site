@@ -1,13 +1,13 @@
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './index.module.scss';
+import Head from '@docusaurus/Head';
 
 import Heading from '@theme/Heading';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -49,11 +49,14 @@ function AboutSection() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={'Boon Boonsiri'}
       description="My personal site">
+      <Head>
+        <meta name="google-site-verification" content="V7drZrXnqtlN78lWMEpGqjvjehmMGEdOpfgJ70svzms" />
+      </Head>
       {/* <HomepageHeader /> */}
       <AboutSection />
     </Layout>
