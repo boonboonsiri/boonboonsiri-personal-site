@@ -14,7 +14,6 @@ const config = {
   tagline: 'Software Engineer',
   favicon: 'img/favicon.png',
 
-  // Set the production url of your site here
   url: 'https://boonboonsiri.github.io',
   staticDirectories: ['static'],
 
@@ -34,9 +33,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -51,13 +47,16 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:'https://github.com/boonboonsiri/boonboonsiri-personal-site',
+          // editUrl:'https://github.com/boonboonsiri/boonboonsiri-personal-site',
           path: 'home',
           routeBasePath: 'photography',
+          breadcrumbs: false,
+
         },
         theme: {
           // customCss: './src/css/custom.css',
           customCss: require.resolve('./src/css/custom.scss'),
+
         },
       }),
     ],
@@ -66,12 +65,13 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+
       navbar: {
         title: 'Boon Boonsiri',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/favicon.png',
-        },
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/favicon.png',
+        // },
         items: [
           {
             type: 'docSidebar',
@@ -80,11 +80,11 @@ const config = {
             label: 'Photography',
           },
           {to: 'blog', label: 'Blog', position: 'left'}, // or position: 'right'
-          {
-            href: 'https://github.com/boonboonsiri/boonboonsiri-personal-site',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://github.com/boonboonsiri/boonboonsiri-personal-site',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
     }),

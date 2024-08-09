@@ -28,7 +28,6 @@
 }
 
 .docs-wrapper {
-
   h2 {
     font-family: "source-serif-pro", serif;
     font-weight: 700;
@@ -46,9 +45,19 @@
   }
 
 }
+.tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module {
+  display: none
+}
 
 .navbar {
   box-shadow: none;
+  // background-color: rgba(255, 255, 255, 0.3); /* White background with transparency */
+  // backdrop-filter: blur(10px); /* Blur effect */
+  // -webkit-backdrop-filter: blur(10px); /* Safari support */
+  // // border: 1px solid rgba(255, 255, 255, 0.18); /* Optional border */
+  // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.0); /* Optional shadow for depth */
+  // // padding: 20px; /* Padding inside the element */
+  // // color: #333; /* Text color */
 }
 
 ::selection {
