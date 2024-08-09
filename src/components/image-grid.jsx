@@ -5,8 +5,11 @@ import "yet-another-react-lightbox/styles.css";
 
 import { Gallery } from 'react-grid-gallery';
 
-import { RowsPhotoAlbum } from "react-photo-album";
+import { RowsPhotoAlbum, ColumnsPhotoAlbum, MasonryPhotoAlbum } from "react-photo-album";
 import "react-photo-album/rows.css";
+import "react-photo-album/columns.css";
+import "react-photo-album/masonry.css";
+
 
 const ImageGrid = ({ transform, text, children }) => {
   var images = children.props.children.length ? children.props.children : [children.props.children];
@@ -37,9 +40,10 @@ const ImageGrid = ({ transform, text, children }) => {
         rowHeight={400}
       /> */}
 
-    <RowsPhotoAlbum
+    <MasonryPhotoAlbum
         photos={slides}
         targetRowHeight={400}
+        columns={Math.min(3, slides.length)}
         onClick={({ index: current }) => setIndex(current)}
         spacing={20}
       />
