@@ -6,13 +6,13 @@ slug: goal-setting
 tags: [thoughts, engineering]
 ---
 
-Over the past few years, I came to the realization that there wasn't necessary a way to improve directly as a software engineer. When you're younger and going through high school you learn skills such as first learning to code the fundamentals and you place those in your tool-belt. In university you learn better algos, more deeper topics like OS, and software architecture. These are all fine and dandy but don't really give you to grow in the industry.
+Over the past few years, I came to the realization that there wasn't necessarily a way to improve directly as a software engineer. When you're younger and going through high school you learn skills such as first learning to code the fundamentals and you place those in your tool-belt. In university you learn better algos, more deeper topics like OS, and software architecture. These are all fine and dandy but don't really give you to grow in the industry.
 
 {/* truncate */}
 
-However, another realization is that there may perhaps be an element of practice. I grew up playing hockey, and you don't only get better at hockey by playing games. You get better by practicing; something we don't necessary focus on once we're in the industry.
+However, another realization is that there may perhaps be an element of practice. I grew up playing hockey, and you don't only get better at hockey by playing games. You get better by practicing; something we don't necessarily focus on once we're in the industry.
 
-An pretty simple example of this I have is using a lambda to sort something in Python. This is something very useful to have for coding interviews, but it's something I never bothered to take the time to remember the syntax. I always assumed that I would remember it if I did it enough times, but never did. So instead I actually took the time to remember and learn exactly what each piece of the syntax does and now I have don't have to search it up every single time I need to use it.
+An pretty simple example of this I have is using a lambda to sort something in Python. This is something very useful to have for coding interviews, but it's something I never bothered to take the time to remember the syntax. I always assumed that I would remember it if I did it enough times, but never did. So instead I actually took the time to remember and learn exactly what each piece of the syntax does and now I don't have to search it up every single time I need to use it.
 
 
 ## Your Theme
