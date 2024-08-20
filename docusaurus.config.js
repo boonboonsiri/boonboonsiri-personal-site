@@ -66,6 +66,13 @@ const config = {
     ({
       // Replace with your project's social card
 
+      themeConfig: {
+        // other theme configurations...
+        metadata: [
+          {name: 'description', content: 'A personal site for Boon Boonsiri'},
+        ],
+      },
+
       navbar: {
         title: 'Boon Boonsiri',
         // logo: {

@@ -25,14 +25,16 @@ There were many goals with building this project.
 
 **1. Be easyish to build**
 
-Ideally this is a project that stays throughout our lives. And I know that ideally because you would want to update the site frequently, you need to make it easy to update. Because of this I want something that I can access easily, have basically copy and paste features, and can just hide away a lot of the implementation.
+Ideally this is a project that stays throughout our lives. And I know that because you would want to update the site frequently, you need to make it easy to update. Because of this I want something that I can access easily, have basic copy and paste features, and can just hide away a lot of the implementation.
 
 
 **2. Having the data be open/future proofing the project**
 
-One of goals of this project was to make sure our photos/info remained as open as possible. I didn't like that all of our information was already scattered across many apps so ideally I liked the idea of storing the journal to something as close as markdown as possible. That way, even if the provider suddenly changed their policies/pricing we could always migrate the journal elsewhere more easily.
+One of goals of this project was to make sure our photos/info remained as open as possible. I didn't like that all of our information was already scattered across many apps so ideally I liked the idea of storing the journal to something as close as markdown/raw text as possible. That way, even if the provider suddenly changed their policies/pricing we could always migrate the journal elsewhere easily.
 
 **3. Be free or inexpensive**
+
+This one is a given.
 
 **4. Allow for collaboration (maybe realtime)**
 
@@ -56,7 +58,7 @@ Now don't get me wrong, I think Notion is an amazing app, and I love what the No
 
 Obsidian was another thought that I had. It provides essentially a souped up version of a markdown editor which is perfect for ease of use. You can obviously host this all using Git however, I still wanted us to be able to view the journal/scrapbook on mobile and while Obsidian has a phone app, I'm pretty sure for Obsidian to provide the syncing between Desktop and mobile there is a cost.
 
-This left Docusaurus. I work with Docusaurus at Radar and I always thought it was a nifty code base. I liked that it was essentially markdown however, you could customize it/build whatever component you liked to your React heart's content. In fact this very site is built also using Docusaurus as another good feature of Docusaurus is this very blog that I am writing on right now. Docusaurus is relatively easy due to the `.mdx` nature. It's maintained by Meta and stored as essentially markdown. Through git and live share features you could have collaboration and since it has React it's by far the most customizable.
+This left Docusaurus. I work with Docusaurus at Radar and I always thought it was a nifty code base. I liked that it was essentially markdown however, you could customize it/build whatever component you liked to your React heart's content. In fact this very site is also built using Docusaurus as another good feature of Docusaurus is this very blog that I am writing on right now. Docusaurus is relatively easy due to the `.mdx` nature. It's maintained by Meta and stored as essentially markdown. Through git and live share features you could have collaboration and since it has React it's by far the most customizable.
 
 ## Implementation
 
@@ -188,7 +190,7 @@ import Polaroid from "../../../../src/components/Polaroid.jsx";
 
 #### Stickers
 
-Another common element are stickers. These are a lot more complicated to build then you may think. Basically how I wanted to build a sticker was applying a white border, and then a shadow around the element.
+Another common element are stickers. These are a lot more complicated to build than you may think. Basically, how I wanted to build a sticker was applying a white border, and then a shadow around the element.
 
 However this is super non trivial. I thought there would be a css effect which just places the border around the already pre-cropped image, however it just places a border around the "rectangle" of the image. You can specify a border yourself, but that seemed non trivial to do. The sort of jank solution I came up with is creating 3 separate copies of the image. At the back you have the shadow scaled to 1.13, with a lower opacity and a brightness zero filter. Then, you have the white outline, which is scaled to 1.1, and has a inverted brightness filter to make it white. Finally, you have the actual image. It's not a perfect solution but it works well enough for me to be satisfied.
 
@@ -296,3 +298,5 @@ I definitely do have some gripes about the projects as with any project. I notic
 I also have some future ideas I have to put onto the site. I like the idea of placing a map of all the places we've been on the journal. Whether this be embedding a Google my map, or building on the components using some combination of open source mapping repos
 
 I also like the ideas of having videos, as I think a video captures feelings that photos don't but that would imply that I get comfortable with shooting video first.
+
+As an aside, overall I like the idea of having this blog. It incentivizes me to build more projects and learn more and communicate and story tell better. I liked in this blog post I have the room to talk about the how and why of implementations and I hope I can find more things to talk about in the future (and maybe some stuff that is not engineering specific).

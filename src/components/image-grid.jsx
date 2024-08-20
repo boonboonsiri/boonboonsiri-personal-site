@@ -52,6 +52,7 @@ const ImageGrid = ({ transform, text, children }) => {
         open={index >= 0}
         index={index}
         close={() => setIndex(-1)}
+        carousel={{padding: '24px'}}
       />
     </div>
   );
